@@ -78,7 +78,7 @@ body{
   float: none; 
 }
 
-.contentParte2 img{
+.section-two-image img{
     max-width: 90%;
 }
 
@@ -144,11 +144,11 @@ body{
   float: none; 
 }
 
-.contentParte2{
+.section-two-image{
   text-align: center;
 }
 
-.contentParte3{
+.section-two-explanation{
   text-align: center;
   margin-top: 50px;
 }
@@ -256,12 +256,12 @@ footer{
 
 @media (min-width:600px){
 
-	.contentParte2{ 
+	.section-two-image{ 
 		width: 48%;
 		float: left;
 	}
 
-	.contentParte3{
+	.section-two-explanation{
 		width: 50%;
 		float: right;
 	} 
