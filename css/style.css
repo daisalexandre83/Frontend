@@ -123,7 +123,12 @@ body{
   float: none;
 }
 
-.contentParte5 img{
+.section-four{
+  width: 80%;
+  margin: 80px auto 0
+}
+
+.section-four img{
   max-width: 100%;
 }
 
@@ -162,29 +167,23 @@ body{
   text-align: center;
 }
 
-.contentParte5{
-  width: 80%;
-  margin: 80px auto 0;
-}
-
-.contentParte6{
+.section-five{
   width: 80%;
   margin: 90px auto 0;
   text-align: center;
 }
 
-.contentParte7{
-  text-align: center;
-  margin: 70px auto 0;
-  width: 80%;
+.holder-card{
   overflow: hidden;
 }
 
 .card{
   margin-top: 50px;
+  text-align: center;
 }   
 
 .imagemP7{
+  height: 40px;
   margin-bottom: 20px;
 }
 
@@ -275,24 +274,19 @@ footer{
     margin-bottom: 0;
   }
 
-  .contentParte5 {
-      width: 100%;
-      text-align: center;
-    }
-
   .item-text{
     text-align: left;
   }    
 
   .card{
-    margin-right: 85px;
-    width: 33.3%;
+    width: 30.33%;
     float: left;
+    padding: 0 1%
   }
 
-  .contentParte7{
-    display:flex;    
-    align-items:baseline;
+  .section-four{
+    width: 100%;
+    text-align: center;
   }
 
   .contentParte8{
@@ -302,8 +296,8 @@ footer{
 
   .item-text-subtitle{
     margin: 0;
-    max-width: 300px;
-    }
+  
+  }
 
   /*.footer{
     display: flex;
