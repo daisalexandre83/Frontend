@@ -199,8 +199,7 @@ body{
   margin: 50px 0 auto;
 }
 
-.contentParte9{
-
+.section-seven{
   margin-top: 130px;
   text-align: center;
 }
@@ -217,16 +216,11 @@ footer{
   margin-top: 50px;
 }
 
-/*.footer-img img{
-  border: 1px solid red
-}*/
-
 .links{
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 
 .link-group{
   width: 100%;
@@ -240,18 +234,18 @@ footer{
   margin-bottom: 30px;
   color: gray;
 }
-.redesSociais{
+
+.social-media{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.redes-img{
+.social-media-icon{
   width: 25px;
   margin-bottom: 80px;
 }
-
 
 @media (min-width:600px){
 
@@ -289,31 +283,28 @@ footer{
     text-align: center;
   }
 
-  .contentParte8{
+  .section-six{
     margin-top: 100px;
     overflow: hidden;
+    display: flex;
+  }
+
+  .item-logo{
+    flex-direction: row;
+    align-items: center; 
   }
 
   .item-text-subtitle{
     margin: 0;
   
   }
-
-  /*.footer{
-    display: flex;
-    flex-direction: row;
-    }*/
-
   .footer-img{
     margin-top: 50px;
     margin-left: 12px;
     width: 20%;
     float: left;
-    /* justify-content: center;
-    align-items: center; */
   }
     
-
   .link-group{
     width: 13,3%;
     margin-top: 20px;
@@ -334,8 +325,7 @@ footer{
     width: 40%;
   }
 
-
-  .redesSociais{
+  .social-media{
     margin-top: -120px;
       width: 40%; 
       float: right;
