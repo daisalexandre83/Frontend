@@ -74,10 +74,6 @@ body{
   background:#2E64FE;
 }
 
-.cpLine4{
-  float: none; 
-}
-
 .section-two-image img{
     max-width: 90%;
 }
@@ -97,32 +93,6 @@ body{
   color: #BDBDBD;
 }
 
-.holder-content-parte4{
-  margin: 0 auto;
-  width: 80%;
-}
-
-.cpTitle4-1{
-  float: none;
-}
-
-.cpTitle4-2{
-  float: none;
-  margin-top: -50px;
-}
-
-.p4-1{
-  float: none;
-}
-
-.p4-2{
-  float: none;
-}
-
-.p4-3{
-  float: none;
-}
-
 .section-four{
   width: 80%;
   margin: 80px auto 0
@@ -130,23 +100,6 @@ body{
 
 .section-four img{
   max-width: 100%;
-}
-
-.cpTitle6-1{
-  float: none;
-}
-
-.cpTitle6-2{
-  float: none;
-  margin-top: -50px;
-}
-
-.p6-1{
-  float: none;
-}
-
-.p6-2{
-  float: none; 
 }
 
 .section-two-image{
@@ -185,10 +138,6 @@ body{
 .imagemP7{
   height: 40px;
   margin-bottom: 20px;
-}
-
-.cpTitle7-1{
-  float: none;
 }
 
 .item-logo{
@@ -327,7 +276,7 @@ footer{
 
   .social-media{
     margin-top: -120px;
-      width: 40%; 
-      float: right;
+    width: 40%; 
+    float: right;
   } 
 }
