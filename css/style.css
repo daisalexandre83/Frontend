@@ -4,6 +4,49 @@ body{
   font-family: 'Saira Condensed', sans-serif;
 }
 
+.section-two{
+  margin: 50px auto 0;
+  overflow: hidden;
+  width: 80%;
+}
+
+.section-two-image img{
+    max-width: 90%;
+}
+
+.section-two-image{
+  text-align: center;
+}
+
+.section-three{
+  margin-top: 100px;
+  align-items: center;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-four{
+  width: 80%;
+  margin: 80px auto 0
+}
+
+.section-four img{
+  max-width: 100%;
+}
+
+.section-five{
+  width: 80%;
+  margin: 90px auto 0;
+  text-align: center;
+}
+
+.section-seven{
+  margin-top: 130px;
+  text-align: center;
+}
+
 .welcome{
   text-align: center;
   align-items: center;
@@ -25,12 +68,6 @@ body{
   font-size: 34px;
   width: 80%;
   margin: 50px auto 0;
-}
-
-.section-two{
-  margin: 50px auto 0;
-  overflow: hidden;
-  width: 80%;
 }
 
 .header-container{
@@ -74,9 +111,6 @@ body{
   background:#2E64FE;
 }
 
-.section-two-image img{
-    max-width: 90%;
-}
 
 .item-text{
   margin-bottom: 24px;
@@ -93,37 +127,9 @@ body{
   color: #BDBDBD;
 }
 
-.section-four{
-  width: 80%;
-  margin: 80px auto 0
-}
-
-.section-four img{
-  max-width: 100%;
-}
-
-.section-two-image{
-  text-align: center;
-}
-
 .section-two-explanation{
   text-align: center;
   margin-top: 50px;
-}
-
-.section-three{
-  margin-top: 100px;
-  align-items: center;
-  overflow: hidden;
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.section-five{
-  width: 80%;
-  margin: 90px auto 0;
-  text-align: center;
 }
 
 .holder-card{
@@ -148,10 +154,6 @@ body{
   margin: 50px 0 auto;
 }
 
-.section-seven{
-  margin-top: 130px;
-  text-align: center;
-}
 
 footer{
   margin-top: 130px;
@@ -198,6 +200,10 @@ footer{
 
 @media (min-width:600px){
 
+  .section-two{
+    width: 100%;
+    margin-top: 100px;
+  }
 	.section-two-image{ 
 		width: 48%;
 		float: left;
@@ -207,6 +213,17 @@ footer{
 		width: 50%;
 		float: right;
 	} 
+
+  .section-four{
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-six{
+    margin-top: 100px;
+    overflow: hidden;
+    display: flex;
+  }
 
   .subtitle{
     width: 50%;
@@ -227,16 +244,7 @@ footer{
     padding: 0 4%;
   }
 
-  .section-four{
-    width: 100%;
-    text-align: center;
-  }
 
-  .section-six{
-    margin-top: 100px;
-    overflow: hidden;
-    display: flex;
-  }
 
   .item-logo{
     flex-direction: row;
@@ -263,10 +271,6 @@ footer{
     flex-direction: column;
   }
 
-  .section-two{
-    width: 100%;
-    margin-top: 100px;
-  }
 
   .links{
     display: flex;
