@@ -4,14 +4,17 @@ body{
   font-family: 'Saira Condensed', sans-serif;
 }
 
-.section-two{
-  margin: 50px auto 0;
-  overflow: hidden;
+.container{
   width: 80%;
+  margin: 50px auto 0;
+}
+
+.section-two{
+  overflow: hidden;
 }
 
 .section-two-image img{
-    max-width: 90%;
+  max-width: 90%;
 }
 
 .section-two-image{
@@ -19,17 +22,9 @@ body{
 }
 
 .section-three{
-  margin-top: 100px;
   align-items: center;
   overflow: hidden;
-  width: 80%;
-  margin: 0 auto;
   text-align: center;
-}
-
-.section-four{
-  width: 80%;
-  margin: 80px auto 0
 }
 
 .section-four img{
@@ -37,8 +32,6 @@ body{
 }
 
 .section-five{
-  width: 80%;
-  margin: 90px auto 0;
   text-align: center;
 }
 
@@ -202,8 +195,8 @@ footer{
 
   .section-two{
     width: 100%;
-    margin-top: 100px;
   }
+
 	.section-two-image{ 
 		width: 48%;
 		float: left;
@@ -244,8 +237,6 @@ footer{
     padding: 0 4%;
   }
 
-
-
   .item-logo{
     flex-direction: row;
     align-items: center; 
@@ -253,8 +244,8 @@ footer{
 
   .item-text-subtitle{
     margin: 0;
-  
   }
+
   .footer-img{
     margin-top: 50px;
     margin-left: 12px;
@@ -270,7 +261,6 @@ footer{
     align-self: baseline;
     flex-direction: column;
   }
-
 
   .links{
     display: flex;
